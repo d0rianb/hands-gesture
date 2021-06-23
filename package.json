@@ -1,0 +1,19 @@
+{
+  "name": "hands-gesture",
+  "version": "0.0.1",
+  "description": "A hands gesture package",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "d0rian <dorian.beauchesne@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.3.8"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1620247984",
+    "@mediapipe/hands": "^0.3.1620248595",
+    "unrail-engine": "^0.4.7"
+  }
+}

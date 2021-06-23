@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands detection</title>
+    <script src="src/main.ts" type="module" defer></script>
+    <style>
+        .abs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scale(-1, 1);
+            filter: FlipH;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas class="canvas abs"></canvas>
+    <video class="input-video abs"></video>
+</body>
+
+</html>
