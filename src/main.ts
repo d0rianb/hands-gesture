@@ -6,7 +6,8 @@ import { setCanvasDimensions } from './utils'
 const hands: Hands = new Hands({ locateFile: file => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}` })
 
 const videoElement: HTMLVideoElement = document.querySelector('.input-video')
-const { width, height } = getWindowDimensions()
+let { width, height } = getWindowDimensions()
+width = Math.min(width, height * 16 / 9)
 setCanvasDimensions(document.querySelector('.canvas'), width, height)
 const canvas: HTMLCanvasElement = Renderer.createFromCanvas('.canvas')
 

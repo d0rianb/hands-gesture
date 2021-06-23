@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir ./docs/"
+    "build": "vite build"
   },
   "author": "d0rian <dorian.beauchesne@icloud.com>",
   "license": "MIT",
