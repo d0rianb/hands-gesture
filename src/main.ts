@@ -7,7 +7,7 @@ const hands: Hands = new Hands({ locateFile: file => `https://cdn.jsdelivr.net/n
 
 const videoElement: HTMLVideoElement = document.querySelector('.input-video')
 let { width, height } = getWindowDimensions()
-width = Math.min(width, height * 16 / 9)
+height = Math.min(height, width * 9 / 16)
 setCanvasDimensions(document.querySelector('.canvas'), width, height)
 const canvas: HTMLCanvasElement = Renderer.createFromCanvas('.canvas')
 
