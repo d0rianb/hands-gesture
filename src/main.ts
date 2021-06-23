@@ -1,5 +1,5 @@
-import { Camera } from '@mediapipe/camera_utils'
-import { Hands } from '@mediapipe/hands'
+// import { Camera } from '@mediapipe/camera_utils'
+// import { Hands } from '@mediapipe/hands/hands.js'
 import { Renderer, Interface, getWindowDimensions, Point } from 'unrail-engine'
 import { setCanvasDimensions } from './utils'
 
