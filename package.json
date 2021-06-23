@@ -4,7 +4,8 @@
   "description": "A hands gesture package",
   "main": "main.ts",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "d0rian <dorian.beauchesne@icloud.com>",
   "license": "MIT",
